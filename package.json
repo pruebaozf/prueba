@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
     "test": "mocha-webpack --webpack-config build/webpack.test.config.js test --recursive --require test/.setup"
   },
@@ -20,7 +19,6 @@
     "autoprefixer": "^7.1.2",
     "avoriaz": "^6.3.0",
     "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.2",
     "babel-plugin-syntax-jsx": "^6.18.0",
@@ -33,15 +31,6 @@
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.9",
-    "eslint": "^4.15.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.2.0",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "eslint-plugin-vue": "^4.0.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
@@ -78,7 +67,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "main": ".eslintrc.js",
-  "license": "ISC"
+  ]
 }

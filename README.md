@@ -26,6 +26,9 @@ npm install -g json-server
 # 2 - launch json server
 json-server states.json
 
+# unit test
+npm run test
+
 # build for production with minification
 npm run build
 
